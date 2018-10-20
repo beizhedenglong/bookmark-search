@@ -1,6 +1,6 @@
 {
   "name": "Bookmark Search",
-  "description": "Bookmark Search",
+  "description": "A Chrome extension for searching bookmark quickly.",
   "version": "1.0.0",
   "browser_action": {
     "default_popup": "dist/popup.html",

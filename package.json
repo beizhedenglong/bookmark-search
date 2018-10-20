@@ -1,11 +1,11 @@
 {
   "name": "bookmark-search",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Chrome extension for searching bookmark quickly.",
   "main": "src/popup.js",
   "scripts": {
     "watch": "parcel watch --no-hmr ./src/popup.html -d extension/dist --no-source-maps  --public-url ./",
-    "build": "parcel build ./src/popup.html -d extension/dist --no-source-maps  --public-url ./",
+    "build": "yarn clean & parcel build ./src/popup.html -d extension/dist --no-source-maps  --public-url ./",
     "clean": "rm -rf ./extension/dist ./dist ./.cache",
     "lint": "eslint ./src"
   },
